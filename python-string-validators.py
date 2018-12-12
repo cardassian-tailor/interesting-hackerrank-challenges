@@ -26,6 +26,8 @@ In the fourth line, print True if has any lowercase characters. Otherwise, print
 In the fifth line, print True if has any uppercase characters. Otherwise, print False. 
 '''
 
+# someone in the comments stated list comprehension ... im alsmost certian this isnt a comprehension, its a generator () vs [] 
+
 s = input()
 
 print(any(letter.isalnum() for letter in s))
